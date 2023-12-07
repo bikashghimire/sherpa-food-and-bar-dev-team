@@ -708,3 +708,119 @@ section {
 .events .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #ffb03b;
 }
+
+/** 
+* Book a Table Section
+*
+.book-a-table .email-form {
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  background: #fff;
+}
+
+.book-a-table .email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.book-a-table .email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.book-a-table .email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.book-a-table .email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.book-a-table .email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.book-a-table .email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.book-a-table .email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.book-a-table .email-form input,
+.book-a-table .email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.book-a-table .email-form input {
+  height: 44px;
+}
+
+.book-a-table .email-form textarea {
+  padding: 10px 12px;
+}
+
+.book-a-table .email-form button[type=reset] {
+  background: #ffb03b;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.book-a-table .email-form button[type=reset]:hover {
+  background: #ffa012;
+}
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.gallery {
+  padding-bottom: 80px;
+}
+
+.gallery .gallery-item {
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  border: groove 0.5em rgb(238, 177, 8);
+  border-radius: 5em;
+}
+
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
