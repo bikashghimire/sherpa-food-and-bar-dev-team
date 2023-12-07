@@ -582,3 +582,129 @@ section {
   gap: 10px;
   margin: 16px 0;
 }
+
+/**
+* Events Section
+*/
+
+.events {
+  background: url(./assets/img/events/events-bg.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.events::before {
+  content: "";
+  background-color: rgba(12, 11, 10, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.events .section-title h2 {
+  color: #fff;
+}
+
+.events .swiper-container {
+  position: relative;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: #7c7975 0px 3px 8px;
+}
+
+@media (min-width: 1024px) {
+  .events {
+    background-attachment: fixed;
+  }
+}
+
+.events .swiper-container {
+  overflow: hidden;
+  width: 90%;
+  height: 100%;
+}
+
+.events .swiper-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.events .swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.events .event-item {
+  color: #fff;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.events .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffb03b;
+  margin-top: 32px;
+}
+
+.events .event-item .price {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.events .event-item .price span {
+  border-bottom: 2px solid #ffb03b;
+}
+
+.events .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.events .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ffb03b;
+}
+
+.events .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.events .event-item .content p {
+  text-align: justify;
+}
+
+.events .event-item .img-fluid {
+  box-shadow: #ffb03b 0px 3px 8px;
+  border-radius: 5%;
+  margin: auto 0px;
+  width: 480px;
+  height: 280px;
+}
+
+.events .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 1;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffb03b;
+}
