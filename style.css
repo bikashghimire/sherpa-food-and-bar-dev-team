@@ -1,0 +1,62 @@
+/**
+* General 
+*/
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;
+  /* max-width: 1440px; */
+}
+a {
+  text-decoration: none;
+  color: #ffb03b;
+}
+
+a:hover {
+  color: #ffc56e;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Satisfy", sans-serif;
+}
+
+.max-width-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/**
+* Top bar
+*/
+#topbar {
+  padding: 0;
+  font-size: 15px;
+  height: 50px;
+  transition: all 0.5s;
+  background: rgba(26, 24, 22, 0.8);
+  z-index: 996;
+  color: rgba(255, 255, 255, 0.7);
+}
+#topbar.topbar-transparent {
+  background: transparent;
+}
+
+#topbar.topbar-scrolled {
+  top: -50px;
+}
+
+#topbar i {
+  color: #ffb03b;
+  line-height: 0;
+}
+
+#topbar i span {
+  color: #fff;
+  font-style: normal;
+  padding-left: 5px;
+}
