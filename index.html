@@ -7,8 +7,8 @@
 
     <!--Favicons-->
 
-    <link href="assets/img/favicon.ico" rel="icon" />
-    <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon" />
+    <link href="assets/images/favicon.ico" rel="icon" />
+    <link href="assets/images/apple-touch-icon.ico" rel="apple-touch-icon" />
 
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,6 +41,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"
     />
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
     <!-- Template Main CSS File -->
     <link href="style.css" rel="stylesheet" />
   </head>
@@ -64,5 +65,169 @@
         >
       </div>
     </section>
+
+    <!--Header-->
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <div class="logo me-auto">
+          <h1><a href="index.html">Sherpa Food & Bar</a></h1>
+        </div>
+
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+            <li><a class="nav-link scrollto" href="#events">Events</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+
+        <a href="#book-a-table" class="book-a-table-btn scrollto"
+          >Book a table</a
+        >
+      </div>
+    </header>
+    <!--End of header-->
+
+    <!--Hero Section-->
+    <section id="hero">
+      <div class="hero-container max-width-container">
+        <div
+          id="heroCarousel"
+          data-bs-interval="5000"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide 1 -->
+            <div
+              class="carousel-item active"
+              style="background-image: url(assets/img/slide/slide-1.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    <span>Sherpa Food & </span> Restaurant
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Home Of The Best <strong> Nepalese </strong> Authentic Food.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Book a Table</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-2.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Our Spirit<span> !</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Break from the ordinary and escape to
+                    <strong>Sherpa Food & Restaurant</strong>, your personal
+                    slice of paradise! <strong>Pasta Cosi</strong> is open seven
+                    days a week, for in- person service as well as takeout and
+                    delivery.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Book a Table</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div
+              class="carousel-item"
+              style="background-image: url(assets/img/slide/slide-3.jpg)"
+            >
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Specialty <span>!</span>
+                  </h2>
+                  <p class="animate__animated animate__fadeInUp">
+                    Find The Perfect Nepalese Food Recipe.
+                  </p>
+                  <div>
+                    <a
+                      href="#menu"
+                      class="btn-menu animate__animated animate__fadeInUp scrollto"
+                      >Our Menu</a
+                    >
+                    <a
+                      href="#book-a-table"
+                      class="btn-book animate__animated animate__fadeInUp scrollto"
+                      >Book a Table</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#heroCarousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
   </body>
 </html>
